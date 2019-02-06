@@ -17,6 +17,20 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-hex-input": [
+        "dist/ngx-hex-input"
+      ],
+      "ngx-hex-input/*": [
+        "dist/ngx-hex-input/*"
+      ],
+      "virtual-scroll-grid": [
+        "dist/virtual-scroll-grid"
+      ],
+      "virtual-scroll-grid/*": [
+        "dist/virtual-scroll-grid/*"
+      ]
+    }
   }
 }
