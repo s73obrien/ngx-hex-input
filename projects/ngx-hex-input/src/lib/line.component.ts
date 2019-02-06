@@ -73,7 +73,7 @@ export class NgxHexLineComponent implements OnInit, OnDestroy {
   constructor(
     private cd: ChangeDetectorRef,
     private dataService: NgxHexDataService,
-    private metricsService: NgxHexMetricsService,
+    public metricsService: NgxHexMetricsService,
     private selectionService: NgxHexSelectionService
   ) { }
 

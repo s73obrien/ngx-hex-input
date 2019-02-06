@@ -107,7 +107,7 @@ export class NgxHexInputComponent implements OnInit, OnDestroy, AfterViewInit {
     private selectionService: NgxHexSelectionService,
     private editingService: NgxHexEditingService,
     private dataService: NgxHexDataService,
-    private metricsService: NgxHexMetricsService,
+    public metricsService: NgxHexMetricsService,
   ) { }
 
   ngOnInit() {

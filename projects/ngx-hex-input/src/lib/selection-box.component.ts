@@ -74,8 +74,8 @@ export class SelectionBoxComponent implements OnInit, OnDestroy {
   constructor(
     private metricsService: NgxHexMetricsService,
     private dataService: NgxHexDataService,
-    private selectionService: NgxHexSelectionService,
-    private editingService: NgxHexEditingService,
+    public selectionService: NgxHexSelectionService,
+    public editingService: NgxHexEditingService,
     private cd: ChangeDetectorRef,
   ) { }
 

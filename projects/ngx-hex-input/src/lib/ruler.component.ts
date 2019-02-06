@@ -54,7 +54,7 @@ export class NgxHexRulerComponent implements OnInit, OnDestroy, AfterViewInit {
 
   constructor(
     public metricsService: NgxHexMetricsService,
-    public cd: ChangeDetectorRef,
+    private cd: ChangeDetectorRef,
   ) { }
 
   ngOnInit() {
